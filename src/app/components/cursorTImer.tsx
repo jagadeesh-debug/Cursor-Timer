@@ -86,7 +86,7 @@ export default function CursorTimer() {
                 </button>
             </div>
 
-            <div className="flex flex-col mt-4 w-86 h-42 bg-violet-100 rounded-lg px-7 py-4">
+            <div className="flex flex-col mt-4 w-86 h-42 bg-violet-100 rounded-lg px-7 py-4 mt-18">
                 <p className="text-xl  block">
                     Step 2/<span className="text-sm font-normal">3</span>
                 </p>
