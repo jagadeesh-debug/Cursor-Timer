@@ -24,7 +24,7 @@ export default function CursorTimer() {
     };
 
     const handleSkip = () => {
-        setTime(60);
+        setTime(0);
     };
 
     const minutes = String(Math.floor(time / 60)).padStart(2, "0");
