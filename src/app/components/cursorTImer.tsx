@@ -65,8 +65,8 @@ export default function CursorTimer() {
                     />
                 </svg>
                 <div className="flex items-center justify-center w-full h-full rounded-full ">
-                    <span className="text-xl font-bold">
-                        {minutes}:{seconds}
+                    <span className="text-xl font-bold text-black">
+                         {minutes}:{seconds}
                     </span>
                 </div>
             </div>
@@ -101,7 +101,7 @@ export default function CursorTimer() {
                     </div>
 
                     <div className="h-18 flex flex-col justify-around  flex-2 ml-3 mb-12">
-                        <p className="text-xl font-bold ">cleansing</p>
+                        <p className="text-xl font-bold text-black">cleansing</p>
                         <div className="flex justify-between">
                             <p className="text-sm font-semibold text-black ">
                                 <AvTimerIcon style={{ color: "86198f" }} /> 60sec
