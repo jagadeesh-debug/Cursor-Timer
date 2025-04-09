@@ -33,7 +33,7 @@ export default function CursorTimer() {
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
             <div className="flex flex-col items-center">
-                <h1 className="font-bold mb-4 md:text-3xl text-2xl">
+                <h1 className="font-bold mb-4 md:text-3xl text-2xl text-black">
                     Routine Starting in...
                 </h1>
                 <p className="text-md md:text-xl font-semibold text-gray-500 mb-4">
